@@ -29,5 +29,6 @@ public class MyClass {
 		driver.close();
 		//close scanner
 		read.close();
+		
 	}
 }
