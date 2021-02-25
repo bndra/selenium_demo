@@ -19,6 +19,11 @@ public class MyClass {
 			driver.get(baseUrl);
 		} catch (Exception e){
 			System.out.println("bad url");
+			//close browser
+			driver.close();
+			//close scanner
+			read.close();
+			return;
 		}
 		actualTitle = driver.getTitle();
 		System.out.println(actualTitle);
@@ -36,7 +41,6 @@ public class MyClass {
 		driver.close();
 		//close scanner
 		read.close();
-		
 		
 	}
 }
