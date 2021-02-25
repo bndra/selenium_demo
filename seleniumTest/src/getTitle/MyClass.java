@@ -37,5 +37,6 @@ public class MyClass {
 		//close scanner
 		read.close();
 		
+		
 	}
 }
