@@ -25,6 +25,7 @@ public class MyClass {
 			read.close();
 			return;
 		}
+		
 		actualTitle = driver.getTitle();
 		System.out.println(actualTitle);
 		
