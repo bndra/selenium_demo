@@ -24,7 +24,7 @@ public class MyClass {
 			//close scanner
 			read.close();
 			return;
-		}
+		} 
 		actualTitle = driver.getTitle();
 		System.out.println(actualTitle);
 		
